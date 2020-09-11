@@ -1,0 +1,58 @@
+@charset:UTF-8;
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:rgb(69, 69, 69)
+}
+.header-title{
+    display: none;
+}
+.header-img{
+    height: 70px;
+}
+.header-img img{
+    box-sizing: border-box;
+    height: 70px;
+    width: 70px;
+}
+.header-column{
+    display: flex;
+    list-style: none;
+}
+.header-list{
+    color: #fff;
+    height: 20px;
+    padding: 25px;
+    font-size: 15px;
+    font-family:"ヒラギノ角ゴ StdN";
+    border-left: 2px solid #dbdbdb;
+}
+.main-area img{
+    width: 100%;
+    height: auto
+}
+.articles{
+    
+}
+.articles-title{
+    font-size: 70px;
+    color:rgb(11, 152, 188);
+    margin: 0 auto;
+    text-align: center
+}
+.articles-lead{
+    margin: 0 auto;
+    width: 200px;
+    height: 27px;
+}
+.articles-lead::after{
+    border-bottom-width: 430px;
+    border-bottom: 22px solid rgb(230, 230, 230);
+}
+
+
